@@ -1,0 +1,29 @@
+{
+  "name": "servicenow-bot",
+  "version": "1.0.0",
+  "description": "ServiceNow Bot for Slack",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "servicenow",
+    "slack",
+    "bot",
+    "integration"
+  ],
+  "repository": {
+    "type": "git",
+    "url" : "https://github.com/rbocchinfuso/servicenow-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rbocchinfuso/servicenow-bot/issues"
+  },
+  "author": "John Agan <jagan@slack-corp.com>",
+  "author": "Rich Bocchinfuso <rbocchinfuso@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.14.0",
+    "express": "^4.14.0",
+    "moment": "^2.15.1"
+  }
+}
